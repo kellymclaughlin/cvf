@@ -1,0 +1,9 @@
+.eunit/*
+deps/*
+ebin/*.beam
+ebin/*.app
+doc
+log/
+*~
+/log
+current_counterexample.eqc

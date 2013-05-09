@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, cvf,
+ [
+  {description, "Clownface Von F*uckstick"},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  lager,
+                  ibrowse
+                 ]},
+  {env, []}
+ ]}.
